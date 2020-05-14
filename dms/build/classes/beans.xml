@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean id="StudentService" class="com.dms.service.impl.StudentServiceImpl"></bean>
+	<bean id="AdminService" class="com.dms.service.impl.AdminServiceImpl"></bean>
+	<bean id="SuperAdminService" class="com.dms.service.impl.SuperAdminServiceImpl"></bean>
+	<bean id="BuildingService" class="com.dms.service.impl.BuildingServiceImpl"></bean>
+	<bean id="DormitoryService" class="com.dms.service.impl.DormitoryServiceImpl"></bean>
+	<bean id="RequestBeanService" class="com.dms.service.impl.RequestBeanServiceImpl"></bean>
+	<bean id="RepairService" class="com.dms.service.impl.RepairServiceImpl"></bean>
+	<bean id="EmployerService" class="com.dms.service.impl.EmployerServiceImpl"></bean>
+	<bean id="CheckDorService" class="com.dms.service.impl.CheckDorServiceImpl"></bean>
+	<bean id="UserService" class="com.dms.service.impl.UserServiceImpl"></bean>
+	<bean id="AnnouncementService" class="com.dms.service.impl.AnnouncementServiceImpl"></bean>
+
+   <bean id="AdminDao" class="com.dms.dao.impl.AdminDaoImpl"/>
+   <bean id="StudentDao" class="com.dms.dao.impl.StudentDaoImpl"/>
+     <bean id="BuildingDao" class="com.dms.dao.impl.BuildingDaoImpl"/>
+       <bean id="SuperAdminDao" class="com.dms.dao.impl.SuperAdminDaoImpl"/>
+       <bean id="DormitoryDao" class="com.dms.dao.impl.DormitoryDaoImpl"/>
+        <bean id="RequestBeanDao" class="com.dms.dao.impl.RequestBeanDaoImpl"/>
+        <bean id="RepairDao" class="com.dms.dao.impl.RepairDaoImpl"/>
+         <bean id="EmployerDao" class="com.dms.dao.impl.EmployerDaoImpl"/>
+          <bean id="CheckDorDao" class="com.dms.dao.impl.CheckDorDaoImpl"/>
+          <bean id="UserDao" class="com.dms.dao.impl.UserDaoImpl"></bean>
+           <bean id="AnnouncementDao" class="com.dms.dao.impl.AnnouncementDaoImpl"></bean>
+       
+
+   
+</beans>
